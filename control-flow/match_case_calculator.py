@@ -19,7 +19,7 @@ match operation:
 
     case "/":
         if num2 ==0:
-            print(f"can't dividedby zero. ")
+            print(f"can't divided by zero. ")
         else:
             result=num1/num2
             print(f"The result is {result}")
