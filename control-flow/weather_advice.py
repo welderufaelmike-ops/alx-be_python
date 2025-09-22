@@ -1,5 +1,5 @@
 
-weather = input("what's weather  like today? sunny/rainy/cold:.")
+weather = str(input("what's weather  like today? sunny/rainy/cold: "))
 
 if  weather  =="sunny":
     print ("wear a t-shirt and eyeglass.")
