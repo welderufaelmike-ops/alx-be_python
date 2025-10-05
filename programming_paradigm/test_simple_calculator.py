@@ -13,23 +13,22 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(2, 3), 5)
         self.assertEqual(self.calc.add(-1, 1), 0)
            
-    def test_substract(self):
-        """Test the substract method."""
-        self.assertEqual(self.calc.subtract(9 ,4), 5)
-        self.assertEqual(self.calc.subtract(-18, 10) ,-28 )
-
+    def test_subtraction(self):
+        """Test the subtraction method."""
+        self.assertEqual(self.calc.subtract(9, 4), 5)
+        self.assertEqual(self.calc.subtract(-18, 10), -28)
 
     def test_multiply(self):
         """Test the multiply method."""
-        self.assertEqual(self.calc.multiply(9 ,3), 27)
+        self.assertEqual(self.calc.multiply(9, 3), 27)
         self.assertEqual(self.calc.multiply(10, 5), 50)
    
     def test_divide(self):
-        """"Test the divide method."""
-        self.assertEqual(self.calc.divide(30 , 6), 5)
+        """Test the divide method."""
+        self.assertEqual(self.calc.divide(30, 6), 5)
         self.assertEqual(self.calc.divide(3, 1), 3)
 
-    
-
 if __name__ == '__main__':
-    unittest.main()            
+    unittest.main()
+
+
