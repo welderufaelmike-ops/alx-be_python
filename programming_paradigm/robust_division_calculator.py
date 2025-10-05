@@ -1,4 +1,4 @@
-def safe_divide(numerator=5, denominator=5):
+def safe_divide(numerator, denominator):
     
     try:
        
@@ -10,7 +10,6 @@ def safe_divide(numerator=5, denominator=5):
         return "Error: Cannot divide by zero."
     except ValueError:
         return "Error: Please enter numeric values only."
-print(safe_divide())
     
 
     
